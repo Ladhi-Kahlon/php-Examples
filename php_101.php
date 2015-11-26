@@ -1,6 +1,6 @@
 <?php
 
-#variable assignment in php, var is the name of the variable and assinged value = ladhi
+#variable assignment in php, var is the name of the variable and assinged value = ladhi.
 //$var = "ladhi";
 #to display variable use echo command.
 //echo $var;

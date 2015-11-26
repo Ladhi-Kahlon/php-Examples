@@ -2,7 +2,7 @@
 
     $city=$_GET['city']; //variable will get city name from user input in index.php
 
-    #php function to replace spaces, from city variable that has " " spaces.
+    #php function to replace spaces, from city variable that has " " spaces...
     $city=str_replace(" ","", $city); 
 
     #file_get_contents get the content value from he page. and assing it to contents variable

@@ -13,7 +13,7 @@
         
         <?php
         
-        /*$_GET globar variable to get, but use POSE variable*/
+        /*$_GET globar variable to get, but use POST variable*/
         
         print_r($_POST);
         

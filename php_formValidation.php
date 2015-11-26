@@ -10,7 +10,7 @@
             $error.="<br />E-mail address is missing";
         }
         
-        //$_POST['email] != '' will check email variable is null or not
+        //$_POST['email] != '' will check email variable is null or not...
         // AND !filter_var...  will check if email add is valid
         if ($_POST['email']="" and !filter_var($_POST['email'], FILTER_VALIDATE_EMAIL)) {      
             $error.+"<br />Invalid E-mail address";

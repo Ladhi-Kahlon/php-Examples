@@ -13,7 +13,7 @@
         
         <?php
         
-        $names=array("Kha","Yash","Veer"); //check if name value using POST variable from form input
+        $names=array("Kha","Yash","Veer"); //check if name value using POST variable from form input.
         
         if($_POST['submit']) { //once the submit button is clicked, name="submit" will have value >>starting point
             
